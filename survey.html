@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee survey</title>
+
+</head>
+
+<body>
+    <form method="get" target="_blank">
+        <div align="center"></div>
+        <p>
+        <h1>Employee survey form</h1>
+        </p>
+        <div>
+            <label for="1">Enter your name:</label>
+            <input id="1" name="name" type="text">
+        </div>
+        <div>
+            <label for="2">Enter your email:</label>
+            <input id="2" name="email" type="email">
+        </div>
+        <div>
+            <label for="3">Enter your department:</label>
+            <input id="3" name="department" type="text">
+        </div>
+        <div>
+            <label id="4">Tell us about yourself:</label>
+            <textarea name="information" id="4" cols="10" rows="2"> </textarea>
+        </div>
+        <div>
+            <label>Do you exercise?</label>
+            <input id="y" type="radio" name="exercise" value="yes">
+            <label for="y">Yes</label>
+            <input id="n" type="radio" name="exercise" value="No">
+            <label for="n">No</label>
+        </div>
+        <div>
+            <label>Where do you read your favorite topics?</label>
+            <br>
+            <input id="online" type="checkbox" name="topics">
+            <label for="online">Online</label>
+            <input id="newspaper" type="checkbox" name="topics">
+            <label for="newspaper">Newspaper</label>
+        </div>
+        <div>
+            <label for="9">what genre of movies do you like?</label>
+            <input list="hha" name="h">
+            <datalist id="hha">
+                <option value="Comedy" selected="true"></option>
+                <option value="romantic"></option>
+            </datalist>
+        </div>
+        <input type="submit" value="Submit">
+
+
+    </form>
+</body>
+
+</html>
